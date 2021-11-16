@@ -29,7 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 *{
-	background: rgb(24, 26, 27)
+	/* background: rgb(24, 26, 27) */
 }
 body {
 	line-height: 1;
@@ -2706,4 +2706,14 @@ input, select, textarea {
 					border-left: 0;
 				}
 
+	}
+
+	/* My custom classes */
+
+	.footer-p {
+		padding-right: .3em;
+	}
+
+	#footer {
+		width: 100%;
 	}
