@@ -2708,7 +2708,7 @@ input, select, textarea {
 
 	}
 
-	/* My custom classes */
+	/* My customizations */
 
 	.footer-p {
 		padding-right: .3em;
@@ -2716,4 +2716,16 @@ input, select, textarea {
 
 	#footer {
 		width: 100%;
+	}
+
+	.row {
+		margin-top: -30px;
+		margin-left: 0px;
+	}
+
+	@media screen and (max-width: 736px){
+		#banner p {
+			font-size: 1.25em;
+			background-color:#131516
+		}
 	}
