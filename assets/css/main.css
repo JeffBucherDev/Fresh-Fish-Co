@@ -2190,6 +2190,7 @@ input, select, textarea {
 		margin: 5em 0 0 0;
 		padding: 5em 0 0 0;
 	}
+	
 
 		#sidebar > section:first-child,
 		#sidebar > article:first-child {
@@ -2746,5 +2747,13 @@ input, select, textarea {
 	
 	#menuSizing {		
 		/* display: block; */
-		width: 75%;
+		width: 65%;
 	}
+
+	/* Events Page */
+
+	ul.divided li {	
+		border-top: solid 2px #3A3F42;
+	}
+
+	
